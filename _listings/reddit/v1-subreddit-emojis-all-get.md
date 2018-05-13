@@ -1,13 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: Reddit
-  description: The Reddit API allows you to access the user submitted and rated stories
-    on reddit.com. It also provides advanced functionality, including user account
-    information and sub-reddit moderation.
+  title: Reddit Get Subreddit Emojis All
+  description: |-
+    Get all emojis for a SR. The response inclueds reddit emojis
+    as well as emojis for the SR specified in the request.
   version: 1.0.0
 host: www.reddit.com
-basePath: api/
+basePath: /
 schemes:
 - http
 produces:
